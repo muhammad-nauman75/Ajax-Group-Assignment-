@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Manage Posts</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>My Blog <span class="header-span"> (Admin) </span></h1>
+        <a class="admin-link btn-link" href="../index.html"> <-- Blogs </a>
+      </div>
+      <!-- Blogs Section -->
+      <div class="manage-posts">
+        <h1 class="manage-heading">Handle Blog Posts</h1>
+
+        <a href="create-post.html" class="manage-btn btn-link"
+          >Create new Post</a
+        >
+      </div>
+      <section id="posts">
+        <h4 style="padding: 5px 0">
+          Total Records Found: <span id="records"></span>
+        </h4>
+        <table class="post-table">
+          <tr>
+            <th class="table-header">Title</th>
+            <th class="table-header">Author</th>
+            <th class="table-header">Tags</th>
+            <th class="table-header">Date</th>
+            <th class="table-header">Actions</th>
+          </tr>
+          <!-- <tr>
+            <td class="table-data">Post 1</td>
+            <td class="table-data">Joe</td>
+            <td class="table-data">News, Movies</td>
+            <td class="table-data">2020-04-23 11:35</td>
+            <td class="table-data">
+              <div class="table-links">
+                <a class="link" href="update-post.html">Update</a> |
+                <a class="link" href="#">Delete</a>
+              </div>
+            </td>
+          </tr> -->
+        </table>
+      </section>
+    </div>
+    <script src="js/manage-posts.js"></script>
+  </body>
+</html>

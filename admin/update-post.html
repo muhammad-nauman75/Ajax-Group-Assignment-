@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Update Post</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Update Post</h1>
+        <a class="admin-link btn-link" href="../admin/index.html"> <-- Admin</a>
+      </div>
+      <form action="" id="update-post">
+        <div class="form-fields">
+          <div class="form-row">
+            <label for="title">Title <span class="star">*</span></label><br>
+            <input name="title" type="text" id="title" >
+          </div>
+          <div class="form-row">
+            <label for="author">Author<span class="star">*</span></label><br>
+            <input type="text" name="author" id="author">
+          </div>
+          <div class="form-row">
+            <label for="content">Content<span class="star">*</span></label><br>
+            <textarea name="content" id="content" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-row">
+            <label for="tags">Tags</label><br>
+            <select id="tags" name="tags" size="7" multiple>
+              <option value="economics">Economics</option>
+              <option value="pilitics">Politics</option>
+              <option value="sport">Sport</option>
+              <option value="food">Food</option>
+              <option value="art">Art</option>
+              <option value="travel">Travel</option>
+              <option value="weather">Weather</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn-submit">Update</button>
+          </div>
+       </div>
+      </form>
+    <script src="js/update-post.js"></script>
+  </body>
+</html>

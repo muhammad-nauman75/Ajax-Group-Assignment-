@@ -1,0 +1,138 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 90px;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.btn-link {
+  text-decoration: none;
+  padding: 10px;
+  background-color: chocolate;
+  border-radius: 5px;
+  color: black;
+  transition: 0.5s ease all;
+}
+.btn-link:hover {
+  background-color: coral;
+}
+
+.posts {
+  margin-top: 30px;
+  line-height: 30px;
+}
+.post-group-item {
+  list-style: none;
+  padding: 30px 15px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+.post-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.post-date {
+  font-style: italic;
+  padding: 10px;
+  color: rgb(87, 87, 87);
+}
+
+#read-more {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: coral;
+  color: white;
+  padding: 3px 5px;
+  transition: 0.5s ease all;
+}
+#read-more:hover {
+  background-color: rgb(255, 182, 155);
+}
+
+/* Single Post Page */
+
+.post {
+  padding-top: 70px;
+}
+/* Admin index page */
+
+.header-span {
+  font-size: 20px;
+  padding-left: 10px;
+  color: rgb(126, 126, 126);
+}
+.manage-posts {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 30px 0;
+}
+#posts {
+  margin: 40px 0;
+}
+#records {
+  color: red;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.post-table {
+  width: 100%;
+  /* margin-top: 30px; */
+  background-color: rgb(83, 83, 83);
+  text-align: center;
+}
+td,
+th {
+  padding: 10px 0;
+}
+th {
+  background-color: yellowgreen;
+}
+td,
+.table-links,
+.link {
+  background-color: white;
+}
+
+/* Creat Post */
+#create-post,
+#update-post {
+  width: 70%;
+  margin: 50px auto;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+}
+.form-row {
+  padding: 15px 0;
+}
+label {
+  font-size: 20px;
+}
+.form-fields {
+  padding-top: 40px;
+}
+.star {
+  color: red;
+}
+.btn-submit {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: chocolate;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
